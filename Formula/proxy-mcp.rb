@@ -1,28 +1,28 @@
 class ProxyMcp < Formula
   desc "Aggregating MCP proxy with a real readiness gate"
   homepage "https://github.com/stubbedev/proxy-mcp"
-  version "0.0.7"
+  version "0.0.8"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/stubbedev/proxy-mcp/releases/download/v#{version}/proxy-mcp-#{version}-darwin-arm64.tar.gz"
-      sha256 "1a11dee3e855e35b17aad1f232ffe3c98d99b8c921a8ab1c9c3286e1cea14de5"
+      sha256 "9558a5577e109ecfa41083bca28ea89e2e7a08c98cfbd7254dae29e009a501f7"
     end
     on_intel do
       url "https://github.com/stubbedev/proxy-mcp/releases/download/v#{version}/proxy-mcp-#{version}-darwin-amd64.tar.gz"
-      sha256 "4e48d951204ed95d90002e5cb713ac1077c6a2859d17918404e1949284e25441"
+      sha256 "1da28cd4e20a9d49eefd4cdd36f5342a7d74a9ee131dedbccf4dc7f499ef3ac7"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/stubbedev/proxy-mcp/releases/download/v#{version}/proxy-mcp-#{version}-linux-arm64.tar.gz"
-      sha256 "3442fe2b716a4b203acbd658b9a3f6a86d367b38734635108c504d5f81cccd21"
+      sha256 "4d4cbb50237d438809cbe589a26004e14343f74b0d8642f49250e23847b104d4"
     end
     on_intel do
       url "https://github.com/stubbedev/proxy-mcp/releases/download/v#{version}/proxy-mcp-#{version}-linux-amd64.tar.gz"
-      sha256 "7d43cda73ae7d9a8a51439c729c856db3d11ecbe0578a7d3a68dfb712dadb10b"
+      sha256 "ae948a109b5aa7db5700db0001c03bfa8bf04b7af0e5f2f97026b32049b12d8a"
     end
   end
 
